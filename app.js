@@ -59,7 +59,7 @@ form.addEventListener("submit", (event) => {
     validateEmptyOption(select, errors.emptySelect);
 
     if (document.querySelectorAll('.error_text').length === 0) {
-        console.log(`${firstname.value} ${lastname.value}, our support team will get back to you on number ${number.value} in ${select[select.selectedIndex].text}`);
+        alert(`${firstname.value} ${lastname.value}, our support team will get back to you on number ${number.value} in ${select[select.selectedIndex].text}`);
         firstname.value = '';
         lastname.value = '';
         number.value = '';
