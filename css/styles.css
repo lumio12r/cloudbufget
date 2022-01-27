@@ -9,7 +9,8 @@ html {
 
 body {
   font-family: "Lato", Arial, sans-serif;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  position: relative; }
 
 header {
   position: relative;
