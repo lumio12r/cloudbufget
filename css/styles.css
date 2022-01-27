@@ -107,7 +107,8 @@ header {
     margin-bottom: .4rem; }
 
 .navbar_active {
-  transform: translateX(0%); }
+  transform: translateX(0%);
+  z-index: '2'; }
 
 .main_banner1 {
   margin-top: -17rem;
