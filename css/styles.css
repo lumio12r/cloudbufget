@@ -118,7 +118,7 @@ header {
   align-items: center;
   flex-direction: column;
   color: white;
-  z-index: -2;
+  z-index: 1;
   min-height: 67.4rem; }
   @media screen and (min-width: 757px) {
     .main_banner1 {
@@ -145,6 +145,7 @@ header {
         font-size: 2.4rem;
         margin: 3.9rem 0; } }
   .main_banner1__button {
+    display: block;
     color: #ED4C5C;
     background: white;
     border: 1px solid white;
@@ -152,7 +153,8 @@ header {
     font-weight: 600;
     padding: 1.7rem 5.3rem 1.6rem 5.2rem;
     border-radius: .6rem;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: .4s linear; }
     .main_banner1__button:hover {
       border: 1px solid white;
       color: white;

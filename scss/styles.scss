@@ -151,7 +151,7 @@ header {
     align-items: center;
     flex-direction: column;
     color: white;
-    z-index: -2;
+    z-index: 1;
     min-height: 67.4rem;
 
     @include queries(tablet) {
@@ -187,6 +187,7 @@ header {
     }
 
     &__button {
+        display: block;
         color: #ED4C5C;
         background: white;
         border: 1px solid white;
@@ -195,6 +196,7 @@ header {
         padding: 1.7rem 5.3rem 1.6rem 5.2rem;
         border-radius: .6rem;
         text-decoration: none;
+        transition: .4s linear;
 
         &:hover {
             border: 1px solid white;
