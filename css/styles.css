@@ -12,6 +12,11 @@ body {
   overflow-x: hidden;
   position: relative; }
 
+#page_wrapper {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%; }
+
 header {
   position: relative;
   z-index: 99; }
