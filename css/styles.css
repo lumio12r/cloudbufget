@@ -108,7 +108,7 @@ header {
 
 .navbar_active {
   transform: translateX(0%);
-  z-index: '2'; }
+  z-index: 2; }
 
 .main_banner1 {
   margin-top: -17rem;
